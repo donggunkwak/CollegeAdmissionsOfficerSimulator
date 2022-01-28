@@ -7,6 +7,7 @@ Simulate the college admissions process from the perspective of an admissions of
 
 1.1 What comprises an application?
 	* An application will include a photo of the student, name, easy info (this includes gpa, gender, race, extracurriculars, any possible legacies), a short essay, a list of applications, and a preferred major
+	* Each activity will have the number of years the student did it listed next to it (a random number between 1 and 4)
 	1.2 How are the applications made?
 	* The name and photo will be randomly generated via thispersondoesnotexist.com and https://www.behindthename.com/random/. 
 * All other application elements will be taken from pregenerated databases with examples of each. Some examples are in the ‘Activities/Extracurriculars’ document.
