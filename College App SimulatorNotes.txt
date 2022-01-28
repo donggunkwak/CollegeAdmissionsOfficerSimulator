@@ -1,0 +1,70 @@
+﻿General Overview:
+Simulate the college admissions process from the perspective of an admissions officer by rejecting, deferring, and maybe accepting a host of wacky applications!
+
+
+1. Setup
+
+
+1.1 What comprises an application?
+	* An application will include a photo of the student, name, easy info (this includes gpa, gender, race, extracurriculars, any possible legacies), a short essay, a list of applications, and a preferred major
+	1.2 How are the applications made?
+	* The name and photo will be randomly generated via thispersondoesnotexist.com and https://www.behindthename.com/random/. 
+* All other application elements will be taken from pregenerated databases with examples of each. Some examples are in the ‘Activities/Extracurriculars’ document.
+	1.3 How are the quota stats generated?
+	* Each school will have set target quotas based on either a pregenerated database or actual admissions/enrollment data.
+	1.4 How are rounds set up?
+	* There are two rounds per game, ‘Early Decision’, which has deferral as an option for students, and ‘Regular Decision’, which has a ‘waitlist’ option in place of ‘deferral’.
+* The player will be shown a more comprehensive stats screen at the end of the regular decision round.
+	
+
+2. Gameplay
+   1. User Interatcion
+      1. Click one of three buttons
+         1. Accept
+         2. Reject
+         3. Defer
+
+
+2.1How do you play?
+	* Players will overlook the application then click the button representing their decision(accept, deny, defer, waitlist)
+	2.2When does the game end?
+	* Every time you make a decision, you affect stats for your school. If these stats get too low (or fairly high), you might trigger a special event. If you fail the special event or continue to fail your stats, your game will end prematurely (the college closes), otherwise
+	2.3 What are the special events?
+	* Special events are events that either give the player a chance to raise a meter by a lot or penalize the player by having a meter decrease a lot. These events will occur more often if a meter gets on the lower or higher end of the spectrum. 
+   * An example of one of these would be a discrimination lawsuit or a student with billionaire parents applying.
+	
+
+3. Player Interactions
+   1. What comprises an application?
+	* An application will include a photo of the student, name, easy info (this includes gpa, gender, race, extracurriculars, any possible legacies), a short essay, a list of applications, and a preferred major
+	How are the applications made?
+	* The name and photo will be randomly generated via thispersondoesnotexist.com and https://www.behindthename.com/random/. All other application elements will be taken from pregenerated databases with examples of each. Some examples are in the ‘Activities/Extracurriculars’ document.
+	When does the game end?
+	* There are two rounds per game, ‘Early Decision’, which has deferral as an option for students, and ‘Regular Decision’, which has a ‘waitlist’ option in place of ‘deferral’.
+* The player will be shown a more comprehensive stats screen at the end of the regular decision round.
+* Every time you make a decision, you affect stats for your school. If these stats get too low (or fairly high), you might trigger a special event. If you fail the special event or continue to fail your stats, your game will end prematurely(the college closes), otherwise
+	How do the stats change?
+	* Each student will have values for each quality based upon their gpa, race, activities, etc. as well as some randomized variance.
+   * If you accept too many students or accept students with lower GPAs/ACTs, the Prestige decreases.
+   * If you don’t accept enough legacy students, the Legacy decreases.
+   * If you accept too many financial aid students, the Wealth decreases.
+   * Diversity is affected by the socioeconomic and ethnic diversity of students accepted.
+   * If you accept too few athletes, the Sports will suffer.
+	What are the special events?
+	* Special events are events that either give the player a chance to raise a meter by a lot or penalize the player by having a meter decrease a lot. These events will occur more often if a meter gets on the lower or higher end of the spectrum.
+   * An example of one of these would be a discrimination lawsuit or a student with billionaire parents applying.
+	
+
+	
+
+	How are the quota stats generated?
+	* Each school will have set quotas based on either a pregenerated database or actual admissions/enrollment data.
+	Walkthrough Gameplay
+	* Select a school to be an admissions counselor for
+* You will see a screen like the illustration below
+* A list of students will be in queue
+* Upon reading the student’s profile, determine whether or not they would advance the school’s goals → make a decision for the student (accept, waitlist, reject)
+* An appropriate page (describing the decision) will show for approximately 10 seconds
+* The screen will then return to the normal student queue page
+* No more students to examine → a page will pop up that illustrates your winning status
+   * If your decisions allow for the school’s quotas to be met, you win; if not, you lose
